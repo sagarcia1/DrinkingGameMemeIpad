@@ -38,7 +38,7 @@
 -(void)motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event{
 
     if (event.type == UIEventSubtypeMotionShake) {
-        int num = [self getRandomNumberBetween:1 to:1];
+        int num = [self getRandomNumberBetween:1 to:6];
         NSLog(@"%d dado", num);
         self.numberDado  = (int)num;
         [self move];
@@ -70,10 +70,14 @@
     [btmove setHidden:YES];
 
     UIButton *btfecha  = (UIButton *)[self.view viewWithTag:self.posAnterior];
-    NSLog(@"%d botao", self.posAnterior);
-    
-    [UIButton animateWithDuration:1.0 animations:^{btfecha.center = CGPointMake(x, y);}];
+    NSLog(@"%d botao", self.posbotao);
     [btfecha setHidden:NO];
+    [UIButton animateWithDuration:1.0 animations:^{btfecha.center = CGPointMake(x, y);}completion:^(BOOL finished){
+        [btfecha setHidden:YES];
+        [btmove setHidden:NO];
+        
+    }];
+    
   
 }
 @end
