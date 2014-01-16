@@ -21,6 +21,8 @@
 		2B128F4218883ABF0055F6A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B128F2418883ABF0055F6A3 /* UIKit.framework */; };
 		2B128F4A18883ABF0055F6A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B128F4818883ABF0055F6A3 /* InfoPlist.strings */; };
 		2B128F4C18883ABF0055F6A3 /* DrinkingGameMemeIpadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B128F4B18883ABF0055F6A3 /* DrinkingGameMemeIpadTests.m */; };
+		2B128F58188841660055F6A3 /* SERPENTES E ESCADAS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B128F57188841660055F6A3 /* SERPENTES E ESCADAS.jpg */; };
+		2B128F5A188843B00055F6A3 /* troll_face_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B128F59188843B00055F6A3 /* troll_face_small.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		2B128F4718883ABF0055F6A3 /* DrinkingGameMemeIpadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrinkingGameMemeIpadTests-Info.plist"; sourceTree = "<group>"; };
 		2B128F4918883ABF0055F6A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2B128F4B18883ABF0055F6A3 /* DrinkingGameMemeIpadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrinkingGameMemeIpadTests.m; sourceTree = "<group>"; };
+		2B128F57188841660055F6A3 /* SERPENTES E ESCADAS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "SERPENTES E ESCADAS.jpg"; path = "../../../../Downloads/SERPENTES E ESCADAS.jpg"; sourceTree = "<group>"; };
+		2B128F59188843B00055F6A3 /* troll_face_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = troll_face_small.png; path = ../../../../Downloads/troll_face_small.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,8 @@
 				2B128F3518883ABF0055F6A3 /* CLSViewController.h */,
 				2B128F3618883ABF0055F6A3 /* CLSViewController.m */,
 				2B128F3818883ABF0055F6A3 /* Images.xcassets */,
+				2B128F59188843B00055F6A3 /* troll_face_small.png */,
+				2B128F57188841660055F6A3 /* SERPENTES E ESCADAS.jpg */,
 				2B128F2718883ABF0055F6A3 /* Supporting Files */,
 			);
 			path = DrinkingGameMemeIpad;
@@ -229,6 +235,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B128F58188841660055F6A3 /* SERPENTES E ESCADAS.jpg in Resources */,
+				2B128F5A188843B00055F6A3 /* troll_face_small.png in Resources */,
 				2B128F3918883ABF0055F6A3 /* Images.xcassets in Resources */,
 				2B128F2B18883ABF0055F6A3 /* InfoPlist.strings in Resources */,
 				2B128F3418883ABF0055F6A3 /* Main.storyboard in Resources */,
