@@ -59,25 +59,51 @@
     self.posbotao = self.posbotao + self.numberDado;
     
    
-    UIButton *btmove = (UIButton *) [self.view viewWithTag:self.posbotao];
-  
-    float x = btmove.center.x;
-    
-    float y = btmove.center.y;
-    
-    NSLog(@"%f x" , x);
-    
-    [btmove setHidden:YES];
-
-    UIButton *btfecha  = (UIButton *)[self.view viewWithTag:self.posAnterior];
-    NSLog(@"%d botao", self.posbotao);
-    [btfecha setHidden:NO];
-    [UIButton animateWithDuration:1.0 animations:^{btfecha.center = CGPointMake(x, y);}completion:^(BOOL finished){
-        [btfecha setHidden:YES];
-        [btmove setHidden:NO];
         
-    }];
+        UIButton *btmove = (UIButton *) [self.view viewWithTag:self.posbotao];
+        
+        float x = btmove.center.x;
+        
+        float y = btmove.center.y;
+        
+        NSLog(@"%f x" , x);
+        
+        [btmove setHidden:YES];
+        
+        UIButton *btfecha  = (UIButton *)[self.view viewWithTag:self.posAnterior];
+        NSLog(@"%d botao", self.posbotao);
+        [btfecha setHidden:NO];
+        [UIButton animateWithDuration:1.0 animations:^{btfecha.center = CGPointMake(x, y);}completion:^(BOOL finished){
+            [btfecha setHidden:YES];
+            [btmove setHidden:NO];
+            
+        }];
+        if (self.posbotao>=31) {
+            UIButton *btwin = (UIButton *)[self.view viewWithTag:31];
+            float x = btwin.center.x;
+            float y = btwin.center.y;
+            [UIButton animateWithDuration:1.0 animations:^{btwin.center = CGPointMake(x,y);}completion:^(BOOL finished){
+                [btwin setHidden:NO];
+                [btfecha setHidden:YES];
+                NSLog(@"%f x final",x);
+               
+    
+                
+             
+                
+                
+                NSLog(@"%d",self.posbotao);
+                }];
+            
+          
+                       UIAlertView *alerta = [[UIAlertView alloc]initWithTitle:@"Ganhou" message:@"Deseja jogar de novo?" delegate:nil cancelButtonTitle:@"Sim" otherButtonTitles:nil,nil];
+               [alerta show];
+            
+        }
+        
+    }
+  
     
   
-}
+
 @end

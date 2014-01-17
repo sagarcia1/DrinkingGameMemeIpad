@@ -16,11 +16,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="drinking_game.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="TOW-bh-QdV">
+                            <imageView userInteractionEnabled="NO" tag="45" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="drinking_game.png" translatesAutoresizingMaskIntoConstraints="NO" id="TOW-bh-QdV">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cdu-sa-Cc3">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cdu-sa-Cc3">
                                 <rect key="frame" x="54" y="58" width="68" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="troll_face_small copy.png">
@@ -256,7 +256,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="drinking_game.jpg" width="960" height="722"/>
+        <image name="drinking_game.png" width="4000" height="3008"/>
         <image name="troll_face_small copy.png" width="1327" height="1080"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
