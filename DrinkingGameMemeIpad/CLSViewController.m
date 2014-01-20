@@ -25,7 +25,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	self.posbotao = 0;
+    self.posAnterior = 0;
     
 }
 
@@ -58,6 +59,9 @@
     
     self.posbotao = self.posbotao + self.numberDado;
     
+    UIBezierPath *aPath= [UIBezierPath bezierPath];
+    UIBarButtonItem *endPath = [UIBezierPath bezierPath];
+    
    
         
         UIButton *btmove = (UIButton *) [self.view viewWithTag:self.posbotao];
@@ -65,7 +69,8 @@
         float x = btmove.center.x;
         
         float y = btmove.center.y;
-        
+    
+    
         NSLog(@"%f x" , x);
         
         [btmove setHidden:YES];
@@ -73,18 +78,17 @@
         UIButton *btfecha  = (UIButton *)[self.view viewWithTag:self.posAnterior];
         NSLog(@"%d botao", self.posbotao);
         [btfecha setHidden:NO];
-        [UIButton animateWithDuration:1.0 animations:^{btfecha.center = CGPointMake(x, y);}completion:^(BOOL finished){
-            [btfecha setHidden:YES];
-            [btmove setHidden:NO];
-            
-        }];
+    CABasicAnimation *animacao = [CABasicAnimation animationWithKeyPath:@"path"];
+    animacao.fromValue = aPath CGPath(x,y);
+   
         if (self.posbotao>=31) {
             UIButton *btwin = (UIButton *)[self.view viewWithTag:31];
-            float x = btwin.center.x;
-            float y = btwin.center.y;
-            [UIButton animateWithDuration:1.0 animations:^{btwin.center = CGPointMake(x,y);}completion:^(BOOL finished){
-                [btwin setHidden:NO];
+            float x1 = btwin.center.x;
+            float y1 = btwin.center.y;
+            [UIButton animateWithDuration:1.0 animations:^{[aPath moveToPoint:CGPointMake(x1,y1)];}completion:^(BOOL finished){
+                [btwin setHidden:YES];
                 [btfecha setHidden:YES];
+                [btmove setHidden:NO];
                 NSLog(@"%f x final",x);
                
     
@@ -97,10 +101,18 @@
             
           
                        UIAlertView *alerta = [[UIAlertView alloc]initWithTitle:@"Ganhou" message:@"Deseja jogar de novo?" delegate:nil cancelButtonTitle:@"Sim" otherButtonTitles:nil,nil];
+            
                [alerta show];
             
-        }
+            self.posbotao = 1;
+            self.posAnterior = 0;
+            
         
+            
+            
+            
+        }
+    
     }
   
     
