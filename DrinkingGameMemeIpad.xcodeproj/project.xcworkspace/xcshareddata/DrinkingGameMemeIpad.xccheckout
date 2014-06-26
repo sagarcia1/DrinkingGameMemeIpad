@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>05150B79-76F9-4C57-98C7-79960D26A8BE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DrinkingGameMemeIpad</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>951EE15B-E796-4EDA-A8B7-AB4DB922BB50</key>
+		<string>https://github.com/sagarcia1/DrinkingGameMemeIpad.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DrinkingGameMemeIpad.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>951EE15B-E796-4EDA-A8B7-AB4DB922BB50</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/sagarcia1/DrinkingGameMemeIpad.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>951EE15B-E796-4EDA-A8B7-AB4DB922BB50</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>951EE15B-E796-4EDA-A8B7-AB4DB922BB50</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DrinkingGameMemeIpad</string>
+		</dict>
+	</array>
+</dict>
+</plist>

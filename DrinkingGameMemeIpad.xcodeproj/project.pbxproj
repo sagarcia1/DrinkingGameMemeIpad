@@ -13,7 +13,6 @@
 		2B128F2B18883ABF0055F6A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B128F2918883ABF0055F6A3 /* InfoPlist.strings */; };
 		2B128F2D18883ABF0055F6A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B128F2C18883ABF0055F6A3 /* main.m */; };
 		2B128F3118883ABF0055F6A3 /* CLSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B128F3018883ABF0055F6A3 /* CLSAppDelegate.m */; };
-		2B128F3418883ABF0055F6A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B128F3218883ABF0055F6A3 /* Main.storyboard */; };
 		2B128F3718883ABF0055F6A3 /* CLSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B128F3618883ABF0055F6A3 /* CLSViewController.m */; };
 		2B128F3918883ABF0055F6A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B128F3818883ABF0055F6A3 /* Images.xcassets */; };
 		2B128F4018883ABF0055F6A3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B128F3F18883ABF0055F6A3 /* XCTest.framework */; };
@@ -21,11 +20,19 @@
 		2B128F4218883ABF0055F6A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B128F2418883ABF0055F6A3 /* UIKit.framework */; };
 		2B128F4A18883ABF0055F6A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B128F4818883ABF0055F6A3 /* InfoPlist.strings */; };
 		2B128F4C18883ABF0055F6A3 /* DrinkingGameMemeIpadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B128F4B18883ABF0055F6A3 /* DrinkingGameMemeIpadTests.m */; };
-		2B128F58188841660055F6A3 /* SERPENTES E ESCADAS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B128F57188841660055F6A3 /* SERPENTES E ESCADAS.jpg */; };
-		2B128F5A188843B00055F6A3 /* troll_face_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B128F59188843B00055F6A3 /* troll_face_small.png */; };
-		2B128F5C1888A6C80055F6A3 /* drinking_game.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B128F5B1888A6C80055F6A3 /* drinking_game.jpg */; };
-		2B128F5F1888AC3D0055F6A3 /* drinking_game.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B128F5D1888AC3D0055F6A3 /* drinking_game.png */; };
-		2B128F601888AC3D0055F6A3 /* troll_face_small copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B128F5E1888AC3D0055F6A3 /* troll_face_small copy.png */; };
+		2B7F154A18B45C29003CB292 /* dado.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7F154918B45C29003CB292 /* dado.png */; };
+		2B7F154C18B469E2003CB292 /* dado3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7F154B18B469E2003CB292 /* dado3.png */; };
+		2B7F155318B474B6003CB292 /* DADO_1 in Resources */ = {isa = PBXBuildFile; fileRef = 2B7F154D18B474B6003CB292 /* DADO_1 */; };
+		2B7F155418B474B6003CB292 /* DADO_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7F154E18B474B6003CB292 /* DADO_2.png */; };
+		2B7F155518B474B6003CB292 /* DADO_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7F154F18B474B6003CB292 /* DADO_3.png */; };
+		2B7F155618B474B6003CB292 /* DADO_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7F155018B474B6003CB292 /* DADO_4.png */; };
+		2B7F155718B474B6003CB292 /* DADO_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7F155118B474B6003CB292 /* DADO_5.png */; };
+		2B7F155818B474B6003CB292 /* DADO_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7F155218B474B6003CB292 /* DADO_6.png */; };
+		2BB0637118A86CED00E8A565 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BB0637018A86CED00E8A565 /* Main.storyboard */; };
+		2BC7285C18B47E4C00008CB5 /* troll_face_small copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BC7285B18B47E4C00008CB5 /* troll_face_small copy.png */; };
+		82C85A7C18D2297F001E4570 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C85A7B18D2297F001E4570 /* CoreLocation.framework */; };
+		82C85A7E18D22987001E4570 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C85A7D18D22987001E4570 /* CoreBluetooth.framework */; };
+		82EB9ACE18B77A3B0008DBC3 /* drinking_game.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82EB9ACD18B77A3B0008DBC3 /* drinking_game.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +56,6 @@
 		2B128F2E18883ABF0055F6A3 /* DrinkingGameMemeIpad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrinkingGameMemeIpad-Prefix.pch"; sourceTree = "<group>"; };
 		2B128F2F18883ABF0055F6A3 /* CLSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLSAppDelegate.h; sourceTree = "<group>"; };
 		2B128F3018883ABF0055F6A3 /* CLSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLSAppDelegate.m; sourceTree = "<group>"; };
-		2B128F3318883ABF0055F6A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B128F3518883ABF0055F6A3 /* CLSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLSViewController.h; sourceTree = "<group>"; };
 		2B128F3618883ABF0055F6A3 /* CLSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLSViewController.m; sourceTree = "<group>"; };
 		2B128F3818883ABF0055F6A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -58,11 +64,20 @@
 		2B128F4718883ABF0055F6A3 /* DrinkingGameMemeIpadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrinkingGameMemeIpadTests-Info.plist"; sourceTree = "<group>"; };
 		2B128F4918883ABF0055F6A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2B128F4B18883ABF0055F6A3 /* DrinkingGameMemeIpadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrinkingGameMemeIpadTests.m; sourceTree = "<group>"; };
-		2B128F57188841660055F6A3 /* SERPENTES E ESCADAS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "SERPENTES E ESCADAS.jpg"; path = "../../../../Downloads/SERPENTES E ESCADAS.jpg"; sourceTree = "<group>"; };
-		2B128F59188843B00055F6A3 /* troll_face_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = troll_face_small.png; path = ../../../../Downloads/troll_face_small.png; sourceTree = "<group>"; };
-		2B128F5B1888A6C80055F6A3 /* drinking_game.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = drinking_game.jpg; path = ../../../../Downloads/drinking_game.jpg; sourceTree = "<group>"; };
-		2B128F5D1888AC3D0055F6A3 /* drinking_game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = drinking_game.png; path = ../../../../Downloads/drinking_game.png; sourceTree = "<group>"; };
-		2B128F5E1888AC3D0055F6A3 /* troll_face_small copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "troll_face_small copy.png"; path = "../../../../Downloads/troll_face_small copy.png"; sourceTree = "<group>"; };
+		2B7145C618B483CA000C8204 /* newTroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newTroll.png; sourceTree = "<group>"; };
+		2B7F154918B45C29003CB292 /* dado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dado.png; sourceTree = "<group>"; };
+		2B7F154B18B469E2003CB292 /* dado3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dado3.png; sourceTree = "<group>"; };
+		2B7F154D18B474B6003CB292 /* DADO_1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = DADO_1; sourceTree = "<group>"; };
+		2B7F154E18B474B6003CB292 /* DADO_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DADO_2.png; sourceTree = "<group>"; };
+		2B7F154F18B474B6003CB292 /* DADO_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DADO_3.png; sourceTree = "<group>"; };
+		2B7F155018B474B6003CB292 /* DADO_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DADO_4.png; sourceTree = "<group>"; };
+		2B7F155118B474B6003CB292 /* DADO_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DADO_5.png; sourceTree = "<group>"; };
+		2B7F155218B474B6003CB292 /* DADO_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DADO_6.png; sourceTree = "<group>"; };
+		2BB0637018A86CED00E8A565 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2BC7285B18B47E4C00008CB5 /* troll_face_small copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "troll_face_small copy.png"; sourceTree = "<group>"; };
+		82C85A7B18D2297F001E4570 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		82C85A7D18D22987001E4570 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		82EB9ACD18B77A3B0008DBC3 /* drinking_game.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drinking_game.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82C85A7E18D22987001E4570 /* CoreBluetooth.framework in Frameworks */,
+				82C85A7C18D2297F001E4570 /* CoreLocation.framework in Frameworks */,
 				2B128F2318883ABF0055F6A3 /* CoreGraphics.framework in Frameworks */,
 				2B128F2518883ABF0055F6A3 /* UIKit.framework in Frameworks */,
 				2B128F2118883ABF0055F6A3 /* Foundation.framework in Frameworks */,
@@ -111,6 +128,8 @@
 		2B128F1F18883ABF0055F6A3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				82C85A7D18D22987001E4570 /* CoreBluetooth.framework */,
+				82C85A7B18D2297F001E4570 /* CoreLocation.framework */,
 				2B128F2018883ABF0055F6A3 /* Foundation.framework */,
 				2B128F2218883ABF0055F6A3 /* CoreGraphics.framework */,
 				2B128F2418883ABF0055F6A3 /* UIKit.framework */,
@@ -124,15 +143,21 @@
 			children = (
 				2B128F2F18883ABF0055F6A3 /* CLSAppDelegate.h */,
 				2B128F3018883ABF0055F6A3 /* CLSAppDelegate.m */,
-				2B128F3218883ABF0055F6A3 /* Main.storyboard */,
+				2BB0637018A86CED00E8A565 /* Main.storyboard */,
 				2B128F3518883ABF0055F6A3 /* CLSViewController.h */,
 				2B128F3618883ABF0055F6A3 /* CLSViewController.m */,
-				2B128F5B1888A6C80055F6A3 /* drinking_game.jpg */,
 				2B128F3818883ABF0055F6A3 /* Images.xcassets */,
-				2B128F5D1888AC3D0055F6A3 /* drinking_game.png */,
-				2B128F5E1888AC3D0055F6A3 /* troll_face_small copy.png */,
-				2B128F59188843B00055F6A3 /* troll_face_small.png */,
-				2B128F57188841660055F6A3 /* SERPENTES E ESCADAS.jpg */,
+				2B7F154D18B474B6003CB292 /* DADO_1 */,
+				2BC7285B18B47E4C00008CB5 /* troll_face_small copy.png */,
+				2B7F154E18B474B6003CB292 /* DADO_2.png */,
+				2B7F154F18B474B6003CB292 /* DADO_3.png */,
+				2B7F155018B474B6003CB292 /* DADO_4.png */,
+				2B7145C618B483CA000C8204 /* newTroll.png */,
+				2B7F155118B474B6003CB292 /* DADO_5.png */,
+				82EB9ACD18B77A3B0008DBC3 /* drinking_game.jpg */,
+				2B7F155218B474B6003CB292 /* DADO_6.png */,
+				2B7F154B18B469E2003CB292 /* dado3.png */,
+				2B7F154918B45C29003CB292 /* dado.png */,
 				2B128F2718883ABF0055F6A3 /* Supporting Files */,
 			);
 			path = DrinkingGameMemeIpad;
@@ -215,6 +240,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Celo;
 				TargetAttributes = {
+					2B128F1C18883ABF0055F6A3 = {
+						DevelopmentTeam = NMJSADRELG;
+					};
 					2B128F3D18883ABF0055F6A3 = {
 						TestTargetID = 2B128F1C18883ABF0055F6A3;
 					};
@@ -244,14 +272,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B128F58188841660055F6A3 /* SERPENTES E ESCADAS.jpg in Resources */,
-				2B128F5A188843B00055F6A3 /* troll_face_small.png in Resources */,
-				2B128F601888AC3D0055F6A3 /* troll_face_small copy.png in Resources */,
+				2BC7285C18B47E4C00008CB5 /* troll_face_small copy.png in Resources */,
+				2B7F154A18B45C29003CB292 /* dado.png in Resources */,
+				2B7F155318B474B6003CB292 /* DADO_1 in Resources */,
+				2BB0637118A86CED00E8A565 /* Main.storyboard in Resources */,
+				2B7F155618B474B6003CB292 /* DADO_4.png in Resources */,
+				2B7F154C18B469E2003CB292 /* dado3.png in Resources */,
+				2B7F155518B474B6003CB292 /* DADO_3.png in Resources */,
 				2B128F3918883ABF0055F6A3 /* Images.xcassets in Resources */,
-				2B128F5C1888A6C80055F6A3 /* drinking_game.jpg in Resources */,
+				2B7F155818B474B6003CB292 /* DADO_6.png in Resources */,
+				82EB9ACE18B77A3B0008DBC3 /* drinking_game.jpg in Resources */,
 				2B128F2B18883ABF0055F6A3 /* InfoPlist.strings in Resources */,
-				2B128F5F1888AC3D0055F6A3 /* drinking_game.png in Resources */,
-				2B128F3418883ABF0055F6A3 /* Main.storyboard in Resources */,
+				2B7F155418B474B6003CB292 /* DADO_2.png in Resources */,
+				2B7F155718B474B6003CB292 /* DADO_5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +334,6 @@
 				2B128F2A18883ABF0055F6A3 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		2B128F3218883ABF0055F6A3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2B128F3318883ABF0055F6A3 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		2B128F4818883ABF0055F6A3 /* InfoPlist.strings */ = {
@@ -401,10 +426,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DrinkingGameMemeIpad/DrinkingGameMemeIpad-Prefix.pch";
 				INFOPLIST_FILE = "DrinkingGameMemeIpad/DrinkingGameMemeIpad-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -414,10 +442,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DrinkingGameMemeIpad/DrinkingGameMemeIpad-Prefix.pch";
 				INFOPLIST_FILE = "DrinkingGameMemeIpad/DrinkingGameMemeIpad-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -483,6 +514,7 @@
 				2B128F5118883ABF0055F6A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B128F5218883ABF0055F6A3 /* Build configuration list for PBXNativeTarget "DrinkingGameMemeIpadTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +523,7 @@
 				2B128F5418883ABF0055F6A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
